@@ -1,0 +1,58 @@
+.bg {
+    /* The image used */
+    background-image: url("src/assets/nordwood-themes-KcsKWw77Ovw-unsplash.jpg");
+    /* Full height */
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body,
+html {
+  height: 100%;
+}
+
+img {
+    font-size: 5em;
+    font-family: 'Orbitron', sans-serif;    
+    color: whitesmoke;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    /* height: 50%; */
+    width: 40%;
+    margin: -15% 0 0 -25%;
+}
+
+.grid-container {
+    font-family: 'Orbitron', sans-serif;   
+    text-align: center;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  i {
+    font-size: 4em;
+  }
+  
+  .about-us {
+    background-color: black;
+    height: 50vh;
+  }
+  
+  .home-heading {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px; 
+  }
+  
+  .home-p {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Orbitron', sans-serif; 
+  }
